@@ -8,4 +8,5 @@ class User < ApplicationRecord
     in: [0, 1, 2],
     message: "role can be only in [0 1 2]"
   }
+  has_secure_password
 end
